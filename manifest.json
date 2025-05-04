@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
 
-  "name": "Chrome Extension TypeScript Starter",
-  "description": "Chrome Extension, TypeScript, Visual Studio Code",
+  "name": "Netflix Household bypass",
+  "description": "Chrome Extension, remove the netflix household popUp",
   "version": "1.0",
 
   "action": {
