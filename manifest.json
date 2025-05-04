@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+
+  "name": "Chrome Extension TypeScript Starter",
+  "description": "Chrome Extension, TypeScript, Visual Studio Code",
+  "version": "1.0",
+
+  "action": {
+    "default_icon": "icons/icon.png",
+    "default_popup": "index.html"
+  },
+
+  "content_scripts": [
+      {
+          "matches": ["https://www.netflix.com/browse"],
+          "js": ["scripts/content_script.js"]
+      }
+  ],
+
+  "permissions": [
+    "storage"
+  ],
+
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
